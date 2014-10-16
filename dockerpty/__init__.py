@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from dockerpty.pty import PseudoTerminal
+from .pty import PseudoTerminal
 
 
 def start(client, container):

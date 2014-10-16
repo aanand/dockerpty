@@ -18,8 +18,8 @@ import sys
 import signal
 from ssl import SSLError
 
-import dockerpty.io as io
-import dockerpty.tty as tty
+from . import io
+from . import tty
 
 
 class WINCHHandler(object):
